@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Lora', serif;
-    --ff-secondary: 'Roboto Slab', serif;
+    --ff-primary: 'Lato', serif;
+    --ff-secondary: 'monospace', serif;
     
     --fw-reg: 400;
     --fw-bold: 700;
@@ -35,14 +34,6 @@
     }
 }
 
-/* General styles */
-
-/* endable this to add smooth scrolling */
-/* html {
-    scroll-behavior: smooth;
-} */
-
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -68,8 +59,6 @@ strong { font-weight: var(--fw-bold) }
     outline-offset: 3px;
 }
 
-/* Buttons */
-
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
@@ -87,8 +76,6 @@ strong { font-weight: var(--fw-bold) }
 .btn:hover {
     transform: scale(1.1);
 }
-
-/* Typography */
 
 h1,
 h2,
@@ -133,7 +120,6 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 2em;
 }
 
-/* header */
 
 header {
     display: flex;
@@ -289,15 +275,10 @@ header {
     }
 }
 
-
-
-/*  My services section  */
-
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
 }
@@ -381,8 +362,6 @@ header {
     }
 }
 
-/* My Work */
-
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -417,9 +396,6 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
-
-
-/* footer */
 
 .footer {
     background: #111;
@@ -463,9 +439,6 @@ header {
 .social-list__link {
     padding: .5em;
 }
-
-
-/* Individual portfolio item styles */
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
